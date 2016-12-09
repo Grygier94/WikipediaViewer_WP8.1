@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-TM25I8L</Machine>
+    <WindowsUser>Cinek</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7fc0adba-2ac8-488a-871a-b9edfce4556d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Cinek</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\bin\Debug\WikipediaViewer2.exe">
+      <PackagePath>WikipediaViewer2.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Images\ArticleBackground.png">
+      <PackagePath>Images\ArticleBackground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Images\ENG-OFF.png">
+      <PackagePath>Images\ENG-OFF.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Images\ENG.png">
+      <PackagePath>Images\ENG.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Images\PL-OFF.png">
+      <PackagePath>Images\PL-OFF.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Images\PL.png">
+      <PackagePath>Images\PL.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Images\Random.png">
+      <PackagePath>Images\Random.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\Images\Search.png">
+      <PackagePath>Images\Search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\bin\Debug\WikipediaViewer2.xr.xml">
+      <PackagePath>WikipediaViewer2.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Repositories\WikipediaViewer_WP8.1\WikipediaViewer2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
